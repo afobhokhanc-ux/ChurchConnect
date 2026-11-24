@@ -1,117 +1,173 @@
-# Product Requirements Document (PRD)
+PRODUCT REQUIREMENT DOCUMENT (PRD)
 
-## Product Name
 
-**MediNotify**
+A church attendance reminder and planner for university students
 
----
+1. The Problem
+ The problem that we are about to solve is the issue regarding the late coming of student and missing of church services
 
-## 1. Product Overview
+1.1 Problem statement 
 
-MediNotify is a mobile application created to help people remember to take their medications at the right time. The app allows users to add their medications, set reminders, and keep track of their medication history. The main purpose of the app is to reduce the number of missed doses and help users manage their health better.
+In Babcock University one of the biggest problems faced by students outside of academics is attending church services and also coming early to the service and that has resorted to some students having an extra year for community service and church attendance which is a big shame; imagine a student on first class staying in school for an extra year because they don’t attend church service, which doesn’t speak well of them.
+Some of the reasons students miss church service could be due to oversleeping and no form of reminder and some other students may be distracted by other activities (such as sports, social activities and also school work). And student remember late to attend the church service 
 
-## 2. Problem Statement
+1.2  Where and How I Observed It 
+I have experienced such incidents on students missing church activities due to tiredness and clustered school actives and most of the students that wants to go for the service tends to come late due to bad time management and choosing of church that are far from their worship center and most of the freshers tends to miss maybe because they forgot about it also some miss church service because they rely mostly on their roommate to wake them yup which they eventually forget and may lead to them arriving late and not end up signing up for the service
 
-Many people forget to take their medications because of busy schedules, stress, or having multiple medications to remember. Missing medication at the right time can affect a person's recovery or health condition. This product aims to provide a simple solution by reminding users when they need to take their medication.
+1.3 Why The Problem Matters
+The main reason why the problem really matters is that in Babcock University church attendance will determine if a person will graduate or not and I know of some students serving extra year because they were consistent with church attendance during their time of study which lead to receiving extra year of community service and church attendance.
 
-## 3. Product Goal
+2. Who Has the Problem 
+The main people associated with this problem of lateness are mostly the students and the freshers who are finding it hard to adapt to the school system and the environment.
 
-The goal of MediNotify is to help users take their medications consistently by providing reminders and an easy way to track their medication schedule.
+2.1 Primary Users
+The primary users of the problem is mostly the students and the newly onboarded students (who are the freshers) and mostly campus and off campus students(who have to cover a long distance before they can’t to school)
 
-## 4. Target Users
+2.2 Secondary Users
+The secondary users are most likely to be the students with extra year due to church attendance, church leaders, pastors and staff of the church.
 
-The main users of this application are:
+3. Research 
+There was a small survey carried out on students who are currently suffering from lateness to church and ho they have acted to deal with it and most of them just rely on theirselves and not making the same mistake all over again
+ 3.1 How People Cope Today
+What most of the student do in other to avoid missing church is giving their mate their friends ID to sign for them which is illegal in the school and it is highly  punishable  by the school’s handbook which could lead to expelling 
+ 
+3.2 Existing solutions 
+We have our phones, google calendar, WhatsApp, google tasks what they all do is set alarms for reminder and help users organize activities and where they all fall short is that they don’t provide church schedules, users must manually enter events, messages can get buried in chats and not specifically designed for the church issues
 
-- Elderly people who may have difficulty remembering their medication times.
-- People with long-term health conditions.
-- Busy individuals who forget their medication due to their daily activities.
-- Parents or caregivers managing medication for others.
+3.3 The Gap
+Most students fail to miss church despite having phone alarms and most reminders comes in as just a regular notifications and a proper reminder should have a preparation time not just the service and the solutions to that is the app provides and also closes the gap between the loopholes already existing 
 
-## 5. Product Objectives
+4. Interviews and Surveys
+During the interview and surveys sections most of the student who were affected with this issues all tends to say that the problems were congested class timetable and not enough encouragement and motivation to go to church
 
-The objectives of MediNotify are to:
+4.1 Methods
+The methods used to collect most of the information are direct and oral methods, where affected students are interviewed and asked questions based on what they are suffering from and what led to it.
 
-- Reduce the number of missed medication doses.
-- Help users organize their medication schedules.
-- Make medication tracking easier.
-- Improve users' consistency in taking their medications.
+4.2 Participants 
+Most of the participant were freshers, student suffering from extra year due to church attendance and the number of student that participated were approximately 15-20 students  and they were mainly on campus students 
 
-## 6. Features and Requirements
+4.3 Questions Asked 
+Most of the questions asked were: have you ever missed a church service you intended to attend, what were the reasons, was it constantly, have you set an alarm and it woke you up for church at the right time?
 
-### Main Features
+4.4 What People Said
 
-#### User Account
+10 students said they had missed church at least once, 7 students said oversleeping was a common reason, 5 students said they relied on friends to wake them up,9 students said they already used phone alarms. 
+5. Proposed Solution
+ 
+5.1 Solution overview
+ 
+A mobile web app that helps university students plan and keep up with church attendance around their academic schedule. Students add their church's service times and their class timetable. The app flags clashes , sends reminders before services. Students want to attend but forget, oversleep, or lose track of the week amid heavy coursework, and no existing tool connects their timetable with their church schedule.
+ 
+5.2 How it addresses what users told you
+ 
+Scheduled reminders (the day before)
+Clash detection against the student's timetable
+Alternative service suggestions
+Simple attendance log with a weekly streak
+Church list with service times, added by students
+ 
+6. MVP (Version 1)
+ 
+6.1 What is in the MVP
+ 
+- Sign-up and login (email or student ID)
+- Add a church and its service times manually (For the specific church)
+- Add weekly class times manually
+- Reminders by push notification
+- Clash warning when a service overlaps with a class
+- Mark attendance (attended or missed) with a basic weekly history
+ 
+6.2 What is NOT in the MVP (and why)
+ 
+- Timetable import (from the university portal or Google Calendar): needs integrations and permissions; manual entry is enough to test the idea.
+- Sermon notes, devotionals, and giving: they don't address the core problem of attending and planning.
+- Social features (groups, accountability partners, leader boards): useful, but better added once we know students use the basics. It turns into an unwanted competition.
+- Keeping the MVP to one campus keeps data manageable.
+ 
+6.3 User stories
+ 
+- Favour: As a first-year student, I want a reminder the evening before service so that I don't forget or oversleep.
+- Kingsley: As a student with a heavy timetable, I want to see when a service clashes with my classes so that I can plan ahead.
+- Victor: As a student who missed a service, I want to see other service times so that I can still attend that week.
+- Glory: As a student trying to be consistent, I want to log my attendance so that I can see my progress over time.
+- Blessing: As a new student on campus, I want to find and save a church's service times so that I can start attending quickly.
 
-- Users can create and log into their accounts.
+7. Requirements
+Project Title: Church Attendance Reminder System for Students
+7.1 Functional Requirements
+These describe what the system must be able to do.
+The system should allow students to create an account and log in.
+Students should be able to set their preferred church service days and times.
+The system should send automatic alarms and notifications to remind students when it is time to
+attend church.
+Students should be able to customize their reminder times.
+The system should allow students to snooze or dismiss reminders.
+The system should display church service schedules and locations.
+The system should allow students to update their personal information and reminder settings.
+The system should send notifications before church services begin.
+7.2 Non-Functional Requirements
+These describe how well the system should perform.
+Performance: The system should send reminders promptly without delays.
+Security: Students’ personal information should be protected from unauthorized access.
+Reliability: The alarm system should work consistently and deliver reminders at the scheduled
+times.
+Usability: The application should have a simple and user-friendly interface that students can
+easily navigate.
+Availability: The system should be accessible whenever students need it.
+Compatibility: The application should work on supported Android and iOS devices.
+Scalability: The system should support an increasing number of student users without affecting
+performance.
+7.3 Data the System Needs to Store
+The backend will need to store the following information:
+Student Information: Full name, email address, password (securely hashed), and student ID.
+Church Information: Church name, address, and contact details.
+Service Schedules: Church service days, starting times, and ending times.
+Alarm Settings: Reminder time, alarm frequency, and notification preferences.
+Notification Records: Notification messages, delivery status, and timestamps.
+Attendance Records: Student ID, church service attended, and attendance date (if attendance
+tracking is included).
 
-#### Medication Management
+8. ⁠Approach (before choosing a language)
+First we are assuming that students keep their phones charged and nearby around service times.
+This sounds obvious, but if a student’s phone dies overnight after late-night studying or low power
+supply, no software alarm can wake them up. To reduce that risk, the app shouldn't just rely on a
+single last-minute wake-up ring it can send an earlier prep reminder the night before or a couple of
+hours ahead so they remember to plug in and get read
+Here we are assuming church service times stay fairly predictable from week to week. While
+Sunday mornings or midweek fellowships usually follow a routine, special campus programs or
+holiday schedules do change. If the app makes schedules rigid, students will stop trusting it.
+Making it effortless to pause a single week, skip a date, or edit service times keeps the app practical
+rather than annoying.
 
-- Users can add medication details such as:
-  - Medication name
-  - Dosage
-  - Time to take the medication
-  - Frequency of use
+9. Modern phones aggressively put background apps to sleep to save battery — and students also
+frequently leave their phones on Do Not Disturb or silent mode while sleeping or studying—either
+of which can delay or completely silence a standard alert. Because a missed alarm defeats the entire
+purpose of the project, we have to use native, high-priority alarm scheduling APIs rather than basic
+background timers, and gently guide students during setup to allow exact alarm and Do Not Disturb
+override permissions.
+There is the human risk of alarm fatigue during busy student periods like exam weeks or semester
+breaks. When students are exhausted or traveling, rigid alarms quickly get ignored or uninstalled.
+Giving them a quick skip this week toggle or a semester-break mode respects their real schedule
+and keeps them coming back when routine resumes.
 
-#### Medication Reminders
+10. Success Metrics
+The system will be considered successful if:
+1 Students attend church more regularly.
+2 Reminders are sent on time.
+3 Students find the system easy to use.
+4 Students can easily plan and keep track of church activities.
 
-- The app sends notifications when it is time to take medication.
+11. Future Improvements
+In the future, the system could be improved by:
+1 Adding a feature to show nearby churches.
+2 Allowing churches to share updates about upcoming programmes.
+3 Adding attendance records for students.
+4 Connecting the system to Google Calendar.
+5 Allowing students to plan church activities with friends
 
-#### Medication Tracking
 
-- Users can mark medication as taken or missed.
-- Users can view their medication history.
 
-#### Refill Reminder
 
-- The app alerts users when their medication is almost finished.
 
-## 7. User Stories
 
-- As a user, I want to receive reminders so that I do not forget to take my medication.
-- As a user, I want to record when I take my medication so that I can track my progress.
-- As a user, I want to update my medication details when there are changes.
-- As a caregiver, I want to monitor medication schedules for people I care for.
 
-## 8. Functional Requirements
-
-The system should:
-
-- Allow users to create an account.
-- Allow users to add, edit, and delete medications.
-- Send reminders at the set time.
-- Allow users to mark medications as taken or missed.
-- Store medication records.
-- Notify users when they need a refill.
-
-## 9. Non-Functional Requirements
-
-The application should:
-
-- Be easy to use.
-- Protect users' personal information.
-- Work efficiently without frequent errors.
-- Send reminders accurately.
-- Have a simple and user-friendly interface.
-
-## 10. Success Metrics
-
-The product will be successful if:
-
-- Users miss fewer medication doses.
-- Users find the app easy to use.
-- The app receives positive feedback.
-- Notifications work properly.
-
-## 11. Future Improvements
-
-Future versions of the app may include:
-
-- Connection with smartwatches.
-- Voice reminders.
-- Doctor appointment reminders.
-- Family member notifications.
-- AI assistance for medication management.
-
-## 12. Conclusion
-
-MediNotify aims to solve the common problem of forgetting medication by providing users with a simple reminder and tracking system. The application will make it easier for people to manage their medications and improve their health routines.
